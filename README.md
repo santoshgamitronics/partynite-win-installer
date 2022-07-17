@@ -1,0 +1,1 @@
+# partynite-win-installer
