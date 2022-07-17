@@ -1,13 +1,13 @@
 {
   "name": "partynite-win-installer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "partynite web auto-installer test",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --mac --publish never",
+    "deploy": "electron-builder build --mac --publish always"
   },
   "repository": {
     "type": "git",
