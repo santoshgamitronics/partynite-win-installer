@@ -1,6 +1,6 @@
 {
   "name": "partynite-win-installer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "partynite web auto-installer test",
   "main": "main.js",
   "scripts": {
