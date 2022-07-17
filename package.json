@@ -1,0 +1,29 @@
+{
+  "name": "partynite-win-installer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santoshgamitronics/partynite-win-installer.git"
+  },
+  "author": "Santosh Kumar M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santoshgamitronics/partynite-win-installer/issues"
+  },
+  "homepage": "https://github.com/santoshgamitronics/partynite-win-installer#readme",
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "electron-updater": "^5.0.5"
+  }
+}
