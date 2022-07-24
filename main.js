@@ -17,10 +17,14 @@ function createWindow() {
     mainWindow.on('closed', function () {
         mainWindow = null;
     });
-    mainWindow.once('ready-to-show', () => {
-        autoUpdater.checkForUpdatesAndNotify();
-    });
+    // mainWindow.once('ready-to-show', () => {
+    //     autoUpdater.checkForUpdatesAndNotify();
+    // });
 }
+
+app.on('ready', function() {
+    autoUpdater.checkForUpdates();
+})
 
 app.on('ready', () => {
     createWindow();
